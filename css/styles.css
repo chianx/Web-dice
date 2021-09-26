@@ -1,0 +1,70 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+    border: dotted grey 10px;
+    height: 715px;
+}
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 7rem;
+    margin: 30px;
+    color: brown;
+}
+.pl1, .pl2 {
+    display: inline-block;
+    font-family: cursive;
+    font-size: 2rem;
+    color: rgb(194, 81, 81);
+}
+.pl1 {
+    padding-right: 40px;
+}
+.pl2 {
+    padding-left: 40px;
+}
+
+.dice-image {
+    height: 200px;
+    width: 200px;
+}
+.roll-button {
+    color: white;
+    font-size: 2.2em;
+    padding: 10px 70px;
+    font-family: cursive;
+    background-color: rgba(76, 201, 76, 0.911);
+    text-decoration: none;
+    border:solid 2px green;
+    border-radius: 10px;
+
+}
+.roll {
+    margin-top: 60px;
+}
+.roll :hover {
+    background-color: green;
+}
+
+.pl1Wins {
+    color: rgb(29, 161, 58);
+    position: absolute;
+    left: 50px;
+}
+
+.pl2Wins {
+    color: rgb(29, 161, 58);
+    position: absolute;
+    right: 50px;
+}
+
+.score1, .score2 {
+    color: red;
+    position: absolute;
+    top: 120px;
+}
+.score1 {
+    left: 130px;
+}
+.score2 {
+    right: 130px;
+}
